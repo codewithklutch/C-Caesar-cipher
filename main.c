@@ -15,7 +15,7 @@ int main(void) {
   fgets(messageText, sizeof(messageText), stdin);
 
   // Prints the encrypted message
-  printf("\nCiphered Message: \n");
+  printf("\nEncrypted Message: \n");
   caesarCipher(messageText, key);
 }
 
